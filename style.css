@@ -34,17 +34,11 @@ footer {
   background-color: #292929;
 }
 .footer-container {
-    position: relative;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-.slogan {
-margin-bottom: 15em;
-  position: absolute;
-  width: 100%;
-  height: auto;
 }
 
 .logo {
@@ -57,11 +51,11 @@ section:nth-child(even) {
 }
 .title {
   font-weight: 800;
-  font-size: 5em;
+  font-size: 7em;
 }
 .subtitle {
   font-weight: 400;
-  font-size: 2.6em;
+  font-size: 3.6em;
 }
 .footer-content {
   margin: 3em;
@@ -94,11 +88,11 @@ a {
   .image {
     border: 3px solid white;
     border-radius: 3px;
-    width: 150px;
-    height: 220px;
+    width: 200px;
+    height: 300px;
   }
   .title {
-    font-size: 2.2em;
+    font-size: 3.7em;
   }
   .subtitle {
     font-size: 1.6em;
@@ -108,8 +102,11 @@ a {
   }
   .about-subtitle {
     text-align: justify;
-    font-size: 1em;
+    font-size: 1.3em;
     width: 345px;
+  }
+  .about-title {
+    font-size: 1.7em;
   }
   .about {
     display: flex;
@@ -123,12 +120,25 @@ a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 7px;
+  }
+  .slogan {
+    display: none;
   }
 }
 @media (min-width: 768px) {
+  .slogan {
+    margin-bottom: 15em;
+    position: absolute;
+    width: 100%;
+    height: auto;
+  }
   .separator {
     border: 2px solid var(--light-color);
     width: 1200px;
+  }
+  .about-title {
+    font-size: 4.7em;
   }
   .image {
     border: 3px solid white;
@@ -161,6 +171,5 @@ a {
   }
   .about-image {
     margin: 3em;
-    width: 300px;
   }
 }
