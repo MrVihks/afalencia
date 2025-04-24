@@ -32,7 +32,7 @@ Pequena página informativa que apresenta:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/afalencia-landing.git
+   git clone https://github.com/MrVihks/afalencia-landing.git
    ```
 2. Entre na pasta do projeto:
    ```bash
